@@ -88,5 +88,18 @@ const Texts = [
         keep: true
     });
 
-    var color = '#FF5733';
+    var color = 'var(--skin-color)';
     document.querySelector('.Sphere').style.color = color;
+
+    VanillaTilt.init(document.querySelectorAll(".service-item-inner"), {
+		max: 25,
+		speed: 400
+	});
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+		max: 25,
+		speed: 400
+	});
+    VanillaTilt.init(document.querySelectorAll(".project-img"), {
+		max: 25,
+		speed: 400
+	});
