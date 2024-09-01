@@ -103,3 +103,11 @@ const Texts = [
 		max: 25,
 		speed: 400
 	});
+    VanillaTilt.init(document.querySelector(".home-img"), {
+		max: 25,
+		speed: 400
+	});
+    VanillaTilt.init(document.querySelector(".home-img1"), {
+		max: 25,
+		speed: 400
+	});

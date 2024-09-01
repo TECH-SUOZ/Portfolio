@@ -263,7 +263,7 @@
     position: relative;
     width: 150px;
     height: 150px;
-    background: #0588e4 url('IMAGES/earth.png');
+    background: #0588e4 url(../IMAGES/earth.png);
     background-size: cover;
     border-radius: 50%;
     box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.85);
@@ -288,7 +288,7 @@
     height: 100%;
     border-radius: 50%;
     overflow: hidden;
-    background: url(IMAGES/cloud.png);
+    background: url(../IMAGES/cloud.png);
     background-size: cover;
     animation: animate 18s linear infinite;
     z-index: 1;
