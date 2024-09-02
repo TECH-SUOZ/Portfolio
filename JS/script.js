@@ -80,7 +80,7 @@ const Texts = [
     'EXPRESSJS', 'REACTJS', 'NODEJS', 'FULLSTACK-DEVELOPER'];
 
     var tagCloud = TagCloud('.Sphere', Texts, {
-        radius: 200,
+        radius: 180,
         width: 10,
         maxSpeed: 'normal',
         initSpeed: 'fast',
